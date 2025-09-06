@@ -45,3 +45,8 @@ export const legoData = [
   { kit: "Classic Kit", prototypes: 3, feedbackScore: 4.8 }
 ];
 
+export const chartData = [
+  { month: "Jan", revenue: 20000, expenses: 12000 },
+  { month: "Feb", revenue: 25000, expenses: 15000 },
+  { month: "Mar", revenue: 30000, expenses: 18000 },
+];

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import DataCard from '../components/DataCard';
+import Chart from '../components/Chart'
 
 
 const Dashboard = () => {
@@ -27,6 +28,7 @@ const Dashboard = () => {
                     ))}
                 </div>
 
+              <Chart/>       
             
             </div>
 
