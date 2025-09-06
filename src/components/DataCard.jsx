@@ -8,6 +8,6 @@ const DataCard = ({title, value}) => {
             <p>{value}</p>
         </div>
     );
-}
+};
 
 export default DataCard; 
